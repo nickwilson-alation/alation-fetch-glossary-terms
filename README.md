@@ -1,4 +1,4 @@
-# Alation API Data to CSV
+# Alation Fetch Glossary Terms
 
 This script retrieves glossary terms from the Alation API and converts them to CSV format.
 
