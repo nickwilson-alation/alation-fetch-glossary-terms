@@ -1,3 +1,4 @@
+import argparse
 import os
 import requests
 import csv
@@ -30,6 +31,8 @@ def main():
         required=os.environ.get('GLOSSARY_ID', None) is None,
         help='Alation Glossary ID'
     )
+
+    args = parser.parse_args()
 
     api_token = args.token
     base_url = args.base_url
